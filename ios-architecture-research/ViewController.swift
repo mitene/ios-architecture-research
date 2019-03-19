@@ -12,9 +12,12 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        let vc = TestViewController()
+        TestConfigurator().configure(vc)
+
+        // 動作確認用
+        vc.someButtonTapped()
     }
 
-
 }
-

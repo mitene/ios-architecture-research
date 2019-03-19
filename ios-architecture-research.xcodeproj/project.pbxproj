@@ -8,12 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		BB148C792240FCD10085BBDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB148C782240FCD10085BBDF /* AppDelegate.swift */; };
-		BB148C7B2240FCD10085BBDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB148C7A2240FCD10085BBDF /* ViewController.swift */; };
+		BB148C7B2240FCD10085BBDF /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB148C7A2240FCD10085BBDF /* TestViewController.swift */; };
 		BB148C7E2240FCD10085BBDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB148C7C2240FCD10085BBDF /* Main.storyboard */; };
 		BB148C802240FCD30085BBDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB148C7F2240FCD30085BBDF /* Assets.xcassets */; };
 		BB148C832240FCD30085BBDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB148C812240FCD30085BBDF /* LaunchScreen.storyboard */; };
 		BB148C8E2240FCD30085BBDF /* ios_architecture_researchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB148C8D2240FCD30085BBDF /* ios_architecture_researchTests.swift */; };
 		BB148C992240FCD30085BBDF /* ios_architecture_researchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB148C982240FCD30085BBDF /* ios_architecture_researchUITests.swift */; };
+		BB148CAF2240FDBB0085BBDF /* SomeRemoteEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB148CAE2240FDBB0085BBDF /* SomeRemoteEntity.swift */; };
+		BB148CB12240FE020085BBDF /* HogeRealmEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB148CB02240FE020085BBDF /* HogeRealmEntity.swift */; };
+		BB148CB32240FE540085BBDF /* SomeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB148CB22240FE540085BBDF /* SomeService.swift */; };
+		BB148CB52240FF070085BBDF /* SomeDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB148CB42240FF070085BBDF /* SomeDataSource.swift */; };
+		BB148CB82240FF410085BBDF /* SomeDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB148CB72240FF410085BBDF /* SomeDataModel.swift */; };
+		BB148CBA2240FF700085BBDF /* HogeDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB148CB92240FF700085BBDF /* HogeDataModel.swift */; };
+		BB148CBC2240FFBC0085BBDF /* Mapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB148CBB2240FFBC0085BBDF /* Mapper.swift */; };
+		BB148CBE2240FFFE0085BBDF /* SomeMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB148CBD2240FFFE0085BBDF /* SomeMapper.swift */; };
+		BB148CC02241004F0085BBDF /* HogeMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB148CBF2241004F0085BBDF /* HogeMapper.swift */; };
+		BB148CC2224100C20085BBDF /* HogeDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB148CC1224100C20085BBDF /* HogeDataSource.swift */; };
+		BB148CC4224100EF0085BBDF /* SomeRemoteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB148CC3224100EF0085BBDF /* SomeRemoteDataSource.swift */; };
+		BB148CC7224101EC0085BBDF /* HogeLocalDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB148CC6224101EC0085BBDF /* HogeLocalDataSource.swift */; };
+		BB148CC9224102810085BBDF /* SomeRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB148CC8224102810085BBDF /* SomeRepository.swift */; };
+		BB148CCB224102B20085BBDF /* HogeRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB148CCA224102B20085BBDF /* HogeRepository.swift */; };
+		BB148CCD224102E70085BBDF /* SomeRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB148CCC224102E70085BBDF /* SomeRepositoryImpl.swift */; };
+		BB148CCF224103A70085BBDF /* HogeRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB148CCE224103A70085BBDF /* HogeRepositoryImpl.swift */; };
+		BB148CD1224104410085BBDF /* GetSomeAndHogeUsecase.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB148CD0224104410085BBDF /* GetSomeAndHogeUsecase.swift */; };
+		BB148CD3224105370085BBDF /* TestPresenterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB148CD2224105370085BBDF /* TestPresenterImpl.swift */; };
+		BB148CD7224105630085BBDF /* TestContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB148CD6224105630085BBDF /* TestContract.swift */; };
+		BB148CD9224108570085BBDF /* TestConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB148CD8224108570085BBDF /* TestConfigurator.swift */; };
+		BB148CDB224109A60085BBDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB148CDA224109A60085BBDF /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +57,7 @@
 /* Begin PBXFileReference section */
 		BB148C752240FCD10085BBDF /* ios-architecture-research.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-architecture-research.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB148C782240FCD10085BBDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BB148C7A2240FCD10085BBDF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BB148C7A2240FCD10085BBDF /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		BB148C7D2240FCD10085BBDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BB148C7F2240FCD30085BBDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB148C822240FCD30085BBDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +68,27 @@
 		BB148C942240FCD30085BBDF /* ios-architecture-researchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-architecture-researchUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB148C982240FCD30085BBDF /* ios_architecture_researchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_architecture_researchUITests.swift; sourceTree = "<group>"; };
 		BB148C9A2240FCD30085BBDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB148CAE2240FDBB0085BBDF /* SomeRemoteEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeRemoteEntity.swift; sourceTree = "<group>"; };
+		BB148CB02240FE020085BBDF /* HogeRealmEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HogeRealmEntity.swift; sourceTree = "<group>"; };
+		BB148CB22240FE540085BBDF /* SomeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeService.swift; sourceTree = "<group>"; };
+		BB148CB42240FF070085BBDF /* SomeDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeDataSource.swift; sourceTree = "<group>"; };
+		BB148CB72240FF410085BBDF /* SomeDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeDataModel.swift; sourceTree = "<group>"; };
+		BB148CB92240FF700085BBDF /* HogeDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HogeDataModel.swift; sourceTree = "<group>"; };
+		BB148CBB2240FFBC0085BBDF /* Mapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mapper.swift; sourceTree = "<group>"; };
+		BB148CBD2240FFFE0085BBDF /* SomeMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeMapper.swift; sourceTree = "<group>"; };
+		BB148CBF2241004F0085BBDF /* HogeMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HogeMapper.swift; sourceTree = "<group>"; };
+		BB148CC1224100C20085BBDF /* HogeDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HogeDataSource.swift; sourceTree = "<group>"; };
+		BB148CC3224100EF0085BBDF /* SomeRemoteDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeRemoteDataSource.swift; sourceTree = "<group>"; };
+		BB148CC6224101EC0085BBDF /* HogeLocalDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HogeLocalDataSource.swift; sourceTree = "<group>"; };
+		BB148CC8224102810085BBDF /* SomeRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeRepository.swift; sourceTree = "<group>"; };
+		BB148CCA224102B20085BBDF /* HogeRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HogeRepository.swift; sourceTree = "<group>"; };
+		BB148CCC224102E70085BBDF /* SomeRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeRepositoryImpl.swift; sourceTree = "<group>"; };
+		BB148CCE224103A70085BBDF /* HogeRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HogeRepositoryImpl.swift; sourceTree = "<group>"; };
+		BB148CD0224104410085BBDF /* GetSomeAndHogeUsecase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetSomeAndHogeUsecase.swift; sourceTree = "<group>"; };
+		BB148CD2224105370085BBDF /* TestPresenterImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPresenterImpl.swift; sourceTree = "<group>"; };
+		BB148CD6224105630085BBDF /* TestContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestContract.swift; sourceTree = "<group>"; };
+		BB148CD8224108570085BBDF /* TestConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestConfigurator.swift; sourceTree = "<group>"; };
+		BB148CDA224109A60085BBDF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +140,22 @@
 			isa = PBXGroup;
 			children = (
 				BB148C782240FCD10085BBDF /* AppDelegate.swift */,
-				BB148C7A2240FCD10085BBDF /* ViewController.swift */,
-				BB148C7C2240FCD10085BBDF /* Main.storyboard */,
 				BB148C7F2240FCD30085BBDF /* Assets.xcassets */,
-				BB148C812240FCD30085BBDF /* LaunchScreen.storyboard */,
+				BB148CD5224105460085BBDF /* Configurator */,
+				BB148CD4224105400085BBDF /* Contract */,
+				BB148CB62240FF2F0085BBDF /* DataModel */,
+				BB148CA82240FD2D0085BBDF /* DataSource */,
+				BB148CA62240FD050085BBDF /* Entity */,
 				BB148C842240FCD30085BBDF /* Info.plist */,
+				BB148C812240FCD30085BBDF /* LaunchScreen.storyboard */,
+				BB148C7C2240FCD10085BBDF /* Main.storyboard */,
+				BB148CAA2240FD750085BBDF /* Mapper */,
+				BB148CAC2240FD840085BBDF /* Presenter */,
+				BB148CA92240FD540085BBDF /* Repository */,
+				BB148CB22240FE540085BBDF /* SomeService.swift */,
+				BB148CAB2240FD7B0085BBDF /* Usecase */,
+				BB148CAD2240FD940085BBDF /* ViewController */,
+				BB148CDA224109A60085BBDF /* ViewController.swift */,
 			);
 			path = "ios-architecture-research";
 			sourceTree = "<group>";
@@ -123,6 +176,96 @@
 				BB148C9A2240FCD30085BBDF /* Info.plist */,
 			);
 			path = "ios-architecture-researchUITests";
+			sourceTree = "<group>";
+		};
+		BB148CA62240FD050085BBDF /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				BB148CAE2240FDBB0085BBDF /* SomeRemoteEntity.swift */,
+				BB148CB02240FE020085BBDF /* HogeRealmEntity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		BB148CA82240FD2D0085BBDF /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				BB148CB42240FF070085BBDF /* SomeDataSource.swift */,
+				BB148CC1224100C20085BBDF /* HogeDataSource.swift */,
+				BB148CC3224100EF0085BBDF /* SomeRemoteDataSource.swift */,
+				BB148CC6224101EC0085BBDF /* HogeLocalDataSource.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		BB148CA92240FD540085BBDF /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				BB148CC8224102810085BBDF /* SomeRepository.swift */,
+				BB148CCA224102B20085BBDF /* HogeRepository.swift */,
+				BB148CCC224102E70085BBDF /* SomeRepositoryImpl.swift */,
+				BB148CCE224103A70085BBDF /* HogeRepositoryImpl.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		BB148CAA2240FD750085BBDF /* Mapper */ = {
+			isa = PBXGroup;
+			children = (
+				BB148CBB2240FFBC0085BBDF /* Mapper.swift */,
+				BB148CBD2240FFFE0085BBDF /* SomeMapper.swift */,
+				BB148CBF2241004F0085BBDF /* HogeMapper.swift */,
+			);
+			path = Mapper;
+			sourceTree = "<group>";
+		};
+		BB148CAB2240FD7B0085BBDF /* Usecase */ = {
+			isa = PBXGroup;
+			children = (
+				BB148CD0224104410085BBDF /* GetSomeAndHogeUsecase.swift */,
+			);
+			path = Usecase;
+			sourceTree = "<group>";
+		};
+		BB148CAC2240FD840085BBDF /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				BB148CD2224105370085BBDF /* TestPresenterImpl.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		BB148CAD2240FD940085BBDF /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BB148C7A2240FCD10085BBDF /* TestViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		BB148CB62240FF2F0085BBDF /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				BB148CB72240FF410085BBDF /* SomeDataModel.swift */,
+				BB148CB92240FF700085BBDF /* HogeDataModel.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		BB148CD4224105400085BBDF /* Contract */ = {
+			isa = PBXGroup;
+			children = (
+				BB148CD6224105630085BBDF /* TestContract.swift */,
+			);
+			path = Contract;
+			sourceTree = "<group>";
+		};
+		BB148CD5224105460085BBDF /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				BB148CD8224108570085BBDF /* TestConfigurator.swift */,
+			);
+			path = Configurator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +399,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB148C7B2240FCD10085BBDF /* ViewController.swift in Sources */,
+				BB148CAF2240FDBB0085BBDF /* SomeRemoteEntity.swift in Sources */,
+				BB148CC4224100EF0085BBDF /* SomeRemoteDataSource.swift in Sources */,
+				BB148CD3224105370085BBDF /* TestPresenterImpl.swift in Sources */,
+				BB148CD7224105630085BBDF /* TestContract.swift in Sources */,
+				BB148CCB224102B20085BBDF /* HogeRepository.swift in Sources */,
+				BB148CB12240FE020085BBDF /* HogeRealmEntity.swift in Sources */,
+				BB148CD9224108570085BBDF /* TestConfigurator.swift in Sources */,
+				BB148CDB224109A60085BBDF /* ViewController.swift in Sources */,
+				BB148CC7224101EC0085BBDF /* HogeLocalDataSource.swift in Sources */,
+				BB148CB52240FF070085BBDF /* SomeDataSource.swift in Sources */,
+				BB148CCF224103A70085BBDF /* HogeRepositoryImpl.swift in Sources */,
+				BB148CCD224102E70085BBDF /* SomeRepositoryImpl.swift in Sources */,
+				BB148CC9224102810085BBDF /* SomeRepository.swift in Sources */,
+				BB148CB82240FF410085BBDF /* SomeDataModel.swift in Sources */,
+				BB148CC02241004F0085BBDF /* HogeMapper.swift in Sources */,
+				BB148CC2224100C20085BBDF /* HogeDataSource.swift in Sources */,
+				BB148CBC2240FFBC0085BBDF /* Mapper.swift in Sources */,
+				BB148CD1224104410085BBDF /* GetSomeAndHogeUsecase.swift in Sources */,
+				BB148CBA2240FF700085BBDF /* HogeDataModel.swift in Sources */,
+				BB148C7B2240FCD10085BBDF /* TestViewController.swift in Sources */,
 				BB148C792240FCD10085BBDF /* AppDelegate.swift in Sources */,
+				BB148CBE2240FFFE0085BBDF /* SomeMapper.swift in Sources */,
+				BB148CB32240FE540085BBDF /* SomeService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
