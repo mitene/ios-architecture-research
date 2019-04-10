@@ -7,6 +7,9 @@
 //
 
 import Foundation
+import Domain
+import Presentation
+import Data
 
 class TestConfigurator {
 
